@@ -10,13 +10,13 @@ The `document` object in JavaScript is a property of the `window` object and ser
 
 |Feature            |    Window Object                                  |    Document Object                       |
 |-------------------|---------------------------------------------------|------------------------------------------|
-| Scope               | Represents the entire browser window or tab; global object. | Represents the HTML or XML content within the browser window; property of `window`. |
-| Hierarchy           | Top-level object.                            | Child of the `window` object (`window.document`). |
-| Functionality       | Controls the browser window (open, resize, navigate). | Interacts with and manipulates the DOM (select, create, modify elements). |
-| Event Handling      | Handles browser window events (load, resize, scroll). | Handles page content events (click, keypress, DOMContentLoaded). |
-| Properties          | Includes properties like `innerHeight`, `location`, `history`. | Includes properties like `body`, `title`, `URL`. |
-| Global Context      | Acts as the global scope; global variables and functions are properties of `window`. | Provides access to and manipulation of the document content. |
-| Navigation          | Manages navigation through `window.location`. | Provides structure and metadata of the document. |
-| Element Creation    | Not used for creating or manipulating page elements. | Used for creating and manipulating elements (`createElement`, `appendChild`). |
-| Focus               | Manages the overall browser environment.     | Manages the content and structure of the web page. |
+| **Scope**               | Represents the entire browser window or tab; global object. | Represents the HTML or XML content within the browser window; property of `window`. |
+| **Hierarchy**           | Top-level object.                            | Child of the `window` object (`window.document`). |
+| **Functionality**       | Controls the browser window (open, resize, navigate). | Interacts with and manipulates the DOM (select, create, modify elements). |
+| **Event Handling**      | Handles browser window events (load, resize, scroll). | Handles page content events (click, keypress, DOMContentLoaded). |
+| **Properties**          | Includes properties like `innerHeight`, `location`, `history`. | Includes properties like `body`, `title`, `URL`. |
+| **Global Context**      | Acts as the global scope; global variables and functions are properties of `window`. | Provides access to and manipulation of the document content. |
+| **Navigation**         | Manages navigation through `window.location`. | Provides structure and metadata of the document. |
+| **Element Creation**    | Not used for creating or manipulating page elements. | Used for creating and manipulating elements (`createElement`, `appendChild`). |
+| **Focus**               | Manages the overall browser environment.     | Manages the content and structure of the web page. |
 
