@@ -20,4 +20,4 @@ The `document` object in JavaScript is a property of the `window` object and ser
 | **Element Creation**    | Not used for creating or manipulating page elements. | Used for creating and manipulating elements (`createElement`, `appendChild`). |
 | **Focus**               | Manages the overall browser environment.     | Manages the content and structure of the web page. |
 | **Storage**            | Manages storage options like localStorage and sessionStorage.   | Does not directly handle storage; relies on window for storage management.|
-| Creation and Existence:    |Automatically created when a browser window/tab is opened; always exists.|Created after the browser has parsed the HTML document; may not exist until the document is fully loaded.|
+| **Creation and Existence:**   |Automatically created when a browser window/tab is opened; always exists.|Created after the browser has parsed the HTML document; may not exist until the document is fully loaded.|
