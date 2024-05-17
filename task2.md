@@ -14,7 +14,6 @@ The `document` object in JavaScript is a property of the `window` object and ser
 | Hierarchy           | Top-level object.                            | Child of the `window` object (`window.document`). |
 | Functionality       | Controls the browser window (open, resize, navigate). | Interacts with and manipulates the DOM (select, create, modify elements). |
 | Event Handling      | Handles browser window events (load, resize, scroll). | Handles page content events (click, keypress, DOMContentLoaded). |
-
 | Properties          | Includes properties like `innerHeight`, `location`, `history`. | Includes properties like `body`, `title`, `URL`. |
 | Global Context      | Acts as the global scope; global variables and functions are properties of `window`. | Provides access to and manipulation of the document content. |
 | Navigation          | Manages navigation through `window.location`. | Provides structure and metadata of the document. |
